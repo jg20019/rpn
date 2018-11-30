@@ -20,13 +20,13 @@ def rpn(expr, debug=False):
             result = op1 + op2
             stack.insert(0, result)
         elif token == '-':
-            # What should the rpn calculator do when it encounters a +?
+            # What should the rpn calculator do when it encounters a -?
             pass
         elif token == '*':
-            # What should the rpn calculator do when it encounters a +?
+            # What should the rpn calculator do when it encounters a *?
             pass
         elif token == '/':
-            # What should the rpn calculator do when it encounters a +?
+            # What should the rpn calculator do when it encounters a /?
             pass
         else:
             # It is assumed that if it is not +,-,*, or / token is a number
